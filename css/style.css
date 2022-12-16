@@ -1,0 +1,252 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap";
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+  position: relative;
+}
+
+body {
+  background: #E5E4E2;
+  font-family: Montserrat, sans-serif;
+}
+
+html {
+  font-size: 11px;
+  line-height: 1.2;
+}
+
+nav {
+	height: 40px;
+	width: 100%;
+	background: #E5E4E2;
+	font-size: 13pt;
+	font-family: 'PT Sans', Arial, sans-serif;
+	font-weight: bold;
+	position: relative;
+}
+nav ul {
+  padding: 0px;
+  margin: 0 auto;
+  width: 600px;
+  height: 40px;
+}
+nav li {
+  display: inline;
+  float: left;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+nav a {
+  color: #000;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 40px;
+}
+nav li a {
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+  border-right: 0;
+}
+nav a:hover, nav a:active {
+  background-color: #8c99a4;
+}
+nav a#pull {
+  display: none;
+}
+
+.menu1 {
+  color: #fff;
+}
+
+@media only screen and (max-width : 700px) {
+  nav {
+    border-bottom: 0;
+    height: auto;
+  }
+  nav ul {
+    display: none;
+    height: auto;
+  }
+  nav li {
+    width: 50%;
+    left: 10%;
+    float: center;
+    position: relative;
+  }
+  nav a#pull {
+    display: block;
+    background-color: #283744;
+    width: 100%;
+    position: relative;
+  }
+  nav a#pull:after {
+    content:"";
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+
+    .main {
+    left: 14%;
+  }
+}
+
+@media only screen and (max-width : 500px) {
+  nav ul {
+    
+    width: 70%;
+    display: block;
+    float: none;
+    
+  }
+
+  nav li a {
+    border-bottom: 1px solid #576979;
+  }
+
+  .main {
+    left: 5%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+
+[class*="__container"] {
+  max-width: 163.4rem;
+  margin: 0 auto;
+}
+
+
+
+.shop-list {
+  margin-top: 4rem;
+}
+
+.shop-list ul {
+  gap: 2rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+.shop-list ul a {
+  color: #1c86dd;
+  font-size: 1.6rem;
+}
+
+.shop-list ul a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.dishes {
+  margin-top: 4rem;
+  display: none;
+}
+
+.dishes__cards {
+  gap: 4rem;
+  display: flex;
+}
+
+.card {
+  width: 30rem;
+  margin-top: 4rem;
+}
+
+.card__body {
+  padding-bottom: 1rem;
+  box-shadow: 0 2px 4px #00000040;
+}
+
+.card__des {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  display: flex;
+}
+
+.card__title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #1c86dd;
+  border: none;
+  border-radius: .4rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+}
+
+.furniture {
+  margin-top: 4rem;
+  display: none;
+}
+
+.furniture__cards {
+  gap: 4rem;
+  display: flex;
+}
