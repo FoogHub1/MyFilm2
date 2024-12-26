@@ -22,7 +22,6 @@ nav {
 	background: #E5E4E2;
 	font-size: 13pt;
 	font-family: 'PT Sans', Arial, sans-serif;
-	font-weight: bold;
 	position: relative;
 }
 nav ul {
@@ -178,6 +177,7 @@ img {
 
 .shop-list {
   margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .shop-list ul {
@@ -250,3 +250,16 @@ h1 {
   gap: 4rem;
   display: flex;
 }
+
+
+/*.footer {
+  background-color: #000;
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  text-align: center; 
+  width: 100%;   
+  font-size: 15px;
+  font-weight: normal;
+  color: #fafaff;
+}*/
