@@ -17,10 +17,7 @@ img {
    display: inline-block;
    margin-top:  20px;
    margin-left: 7%;
-   margin-bottom: 10px;
-   align-content: center;
-   align-items: center;
-   justify-content: center;
+   margin-bottom: 30px;
 }
 .wrap {
    height: 100%;
@@ -104,6 +101,7 @@ img {
    border-color: #4966A2;
 }
 .product-info {
+   height: 200px;
    padding-top: 15px;
 }
 .product-title {
